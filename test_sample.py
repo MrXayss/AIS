@@ -13,3 +13,4 @@ def test_col():
 
 def test_count():
     assert lab1.Clients.select().count() >= 10 and lab1.Orders.select().count() >= 10
+    
